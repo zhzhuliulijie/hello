@@ -1,0 +1,23 @@
+/*--
+自定义字体
+--*/
+@font-face {
+    font-family: fzxbsjw;
+    src: url("../fonts/fzxbsjw.ttf");
+}
+@font-face {
+    font-family: fzydhtjw;
+    src: url("../fonts/fzydhtjw.ttf");
+}
+@font-face {
+    font-family: fzcchtjw;
+    src: url("../fonts/fzcchtjw.ttf");
+}
+@font-face {
+    font-family: hyzytjw;
+    src: url("../fonts/汉仪综艺体简.ttf");
+}
+@font-face {
+    font-family: fzhzgbjw;
+    src: url("../fonts/方正汉真广标简体.ttf");
+}

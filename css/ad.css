@@ -1,0 +1,14 @@
+.ad-container { width: 1200px; height: auto; margin: 0 auto;}
+.ad-container .ad{ width: 100%; height: auto; display: flex; justify-content: space-between; flex-wrap: wrap;}
+.ad-container .ad .ad-link { display: block; position: relative; margin-top: 10px}
+.ad-container .ad .ad-link:after{display: block; background: rgba(0,0,0,0.5); content: '广告'; border-radius: 0 0 0 40px; width: 38px;
+    height: 20px; font-size: 12px; color: white; text-align: right; line-height: 15px; padding-right: 2px;
+    position: absolute; top: 0; right: 0;
+}
+.ad-container-full{ width: 100%; min-width: 1200px; height: auto;}
+.ad-container-full .ad{ width: 100%; height: auto; display: flex; justify-content: space-between; flex-wrap: wrap;}
+.ad-container-full .ad .ad-link { display: block; width: 100%; position: relative;}
+.ad-container-full .ad .ad-link:after{display: block; background: rgba(0,0,0,0.5); content: '广告'; border-radius: 0 0 0 40px; width: 38px;
+    height: 20px; font-size: 12px; color: white; text-align: right; line-height: 15px; padding-right: 2px;
+    position: absolute; top: 0; right: 0;
+}
